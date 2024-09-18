@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import sys
 
+# Nao foi possivel incluir os microdados no repositorio devido ao tamanho dos dados (~3Gb cada ano)
 YEAR = sys.argv[1]
 MICRODATA_PATH = f"./microdados/microdados_enem_{YEAR}/DADOS/MICRODADOS_ENEM_{YEAR}.csv"
 QUESTIONS_PATH = f"./microdados//microdados_enem_{YEAR}/DICIONÁRIO/Dicionário_Microdados_Enem_{YEAR}.xlsx"
